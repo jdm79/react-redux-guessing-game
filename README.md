@@ -42,3 +42,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+##TDD React/Redux Single Page Application
+What is this?
+This is a TDD React/Redux guessing game app from Bonnie Schulkin using Enzyme and Jest. The tutorial can be found on Udemy here and can be bought for £10 at certain times !
+
+Learning Outcomes
+Testing a single page application (SPA) that has data loaded from a server.What is this?
+This is a TDD React/Redux guessing game app from Bonnie Schulkin using Enzyme and Jest. The tutorial can be found on Udemy here and can be bought for £10 at certain times !
+
+Learning Outcomes
+Testing a single page application (SPA) that has data loaded from a server.
