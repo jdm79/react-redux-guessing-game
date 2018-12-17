@@ -10,3 +10,8 @@ It is based on a [tutorial on Udemy](https://www.udemy.com/react-testing-with-je
 * Using Redux middleware
 * Best practices when building a React app (parent and child components)
 
+## Process
+
+### Making the first tests
+
+We write the tests and stub out functions in the code to achieve bare minimum necessary for tests to return relevant feedback.
