@@ -1,4 +1,4 @@
-// this helper function can be imported into all our test files
+// these helper functions can be imported into all our test files
 // #DRY
 import checkPropTypes from 'check-prop-types'
 

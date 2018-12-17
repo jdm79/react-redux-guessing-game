@@ -13,15 +13,15 @@ It is based on a [tutorial on Udemy](https://www.udemy.com/react-testing-with-je
 ## The Data for this app
 ```
 
-key          | Data Type | Description                      | Starting Value   |
--------------------------------------------------------------------------------|
-secretWord   | string    | word the user is trying to guess | word from server |
-success      | boolean   | word guessed correctly or not    | false            |
-guessedWords | array     | array of objects: {              | []               |
-                             guessedWord: string,                              |
-                            letterMatchCount: number                           |
-                           }                                                   |
--------------------------------------------------------------------------------|
+key          | Data Type | Description                      | Starting Value   
+-------------------------------------------------------------------------------
+secretWord   | string    | word the user is trying to guess | word from server 
+success      | boolean   | word guessed correctly or not    | false            
+guessedWords | array     | array of objects: {              | []               
+                             guessedWord: string,                              
+                            letterMatchCount: number                           
+                           }                                                   
+-------------------------------------------------------------------------------
 ```
 
 ### Making the first tests
