@@ -7,15 +7,19 @@ import Congrats from '../components/Congrats'
 
 Enzyme.configure({ adapter: new EnzymeAdapter() })
 
+// in this app this is ok, but beware of setting default props
+const defaultProps = { success: false }
+
 // props default is empty obj, which is what will return when prop = false
 const setup = ( props={} ) => {
+  const setupProps = { ...defaultProps, ...props }
   // spread operator takes props and turns into key/value pairs
-  return shallow(<Congrats {...props} />)
+  return shallow(<Congrats {...setupProps} />)
 } 
 
 // 
 test('renders without error', () => {
-  const wrapper = setup()
+  const wrapper = setup({ success: false })
   const component = findByTestAttr(wrapper, 'component-congrats')
   expect(component.length).toBe(1)
 })
@@ -33,6 +37,6 @@ test('renders non-empty congrats text when success prop is true', () => {
 })
 
 test('does not throw a warning with expected props', () => {
-  const expectedProps = { success: false}
+  const expectedProps = { success: false }
   checkProps(Congrats, expectedProps)
 })
