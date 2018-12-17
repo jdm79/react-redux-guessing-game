@@ -10,7 +10,7 @@ It is based on a [tutorial on Udemy](https://www.udemy.com/react-testing-with-je
 * Using Redux middleware
 * Best practices when building a React app (parent and child components)
 
-## The Data for this app
+## App state
 ```
 
 key          | Data Type | Description                      | Starting Value   
