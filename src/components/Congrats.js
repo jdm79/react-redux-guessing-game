@@ -1,16 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Congrats extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {}
-  }
+export default (props) => {
 
-  render() {
-    return (
-      <div />
+  if (props.success) {
+    return(
+        <div data-test="component-congrats">
+        <span data-test="congrats-message">
+        Congratulations! You guessed the word!
+      </span>
+    </div>
+    )
+  } else {
+    return(
+      <div data-test="component-congrats" />
     )
   }
 }
 
-export default Congrats
