@@ -21,7 +21,6 @@ guessedWords | array     | array of objects: {              | []
                              guessedWord: string,                              
                             letterMatchCount: number                           
                            }                                                   
--------------------------------------------------------------------------------
 ```
 
 ### Making the first tests
