@@ -2,6 +2,10 @@
   "name": "react-redux-guessing-game",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.5.0",
+    "node": "10.9.0"
+  },
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
