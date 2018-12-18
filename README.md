@@ -23,6 +23,12 @@ guessedWords | array     | array of objects: {              | []
                            }                                                   
 ```
 
-### Making the first tests
+## Making the first tests
 
 We write the tests and stub out functions in the code to achieve bare minimum necessary for tests to return relevant feedback.
+
+Makes sure the specs are met, rather than implementation detail. What, not how.
+
+Separate the tests with 'describe' for context.
+
+
