@@ -10,7 +10,11 @@ class App extends Component {
       <div className="container">
         <h1>Guess the Word!</h1>
         <Congrats success={ true } />
-        <GuessedWords guessedWords={ [{ guessedWord: 'train', letterMatchCount: 3}] } />
+        <GuessedWords guessedWords={ 
+          [ { guessedWord: 'train', letterMatchCount: 3},
+            { guessedWord: 'agile', letterMatchCount: 1}
+          ]
+        } />
       </div>
     )
   }
