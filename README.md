@@ -10,6 +10,18 @@ It is based on a [tutorial on Udemy](https://www.udemy.com/react-testing-with-je
 * Using Redux middleware
 * Best practices when building a React app (parent and child components)
 
+## What it will look like
+
+#### Guessed Words Table
+
+```
+Guess | Matching Letters
+-------------------------
+agile | 1
+train | 3
+party | 5
+```
+
 ## App state
 ```
 
