@@ -48,12 +48,12 @@ describe('if there are words guessed', () => {
     expect(component.length).toBe(1)
   })
   test('renders "guessed words" section', () => {
-    const guessedWordsNode = findByTestAttr(wrapper, 'guessed-words')
-    expect(guessedWordsNode.length).toBe(1)
+    const guessedWordsNodes = findByTestAttr(wrapper, 'guessed-words')
+    expect(guessedWordsNodes.length).toBe(1)
 
   })
   test('displays correct number of guessed words', () => {
-    const guessedWordsNodes = findByTestAttr(wrapper, 'guessed-node')
+    const guessedWordsNodes = findByTestAttr(wrapper, 'guessed-word')
     expect(guessedWordsNodes.length).toBe(guessedWords.length)
   })
 })
