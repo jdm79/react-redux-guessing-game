@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import '../styling/App.css';
 
+import Congrats from './Congrats'
+import GuessedWords from './GuessedWords'
+
 class App extends Component {
   render() {
     return(
-      <div>
-        <h1>Hello world</h1>
+      <div className="App">
+        <h1>Guess the Word!</h1>
+        <Congrats success={ false } />
+        <GuessedWords guessedWords={ [] } />
       </div>
     )
   }
