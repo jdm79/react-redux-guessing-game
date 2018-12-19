@@ -57,4 +57,11 @@ Separate the tests with 'describe' for context.
 
 Some see action creators and reducers as an implementation detail, better tested with integration tests on the API - on points of user interaction. The benefits of skipping unit tests include having fewer tests to maintain and less refactoring when refactoring code. However, the big disadvantage of not having unit tests is that when things go wrong, it can be very difficult to diagnose the problem when tests fail. Integration tests can cover such a broad body of code that it can be hard to find which part of the code is causing a fail. It's a matter of personal choice and also how complicated your action creators and reducers are. If they are more complicated, it's better to have unit tests for them.
 
+#### Testing the input component
+
+This component will interact with the redux store. Based on the success state (true or false), it will either render an input box and a submit button (if state is false), or if the success state is true it won't render an input box at all - a congratulations message instead. As well as this interaction, it will be adding to the guessed words array on each unsuccessful guess. 
+
+The input component calls the action creator, also using Redux thunk (UPDATE!).
+
+
 
