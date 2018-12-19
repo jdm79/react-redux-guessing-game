@@ -10,6 +10,10 @@ It is based on a [tutorial on Udemy](https://www.udemy.com/react-testing-with-je
 * Using Redux middleware
 * Best practices when building a React app (parent and child components)
 
+## Process
+
+Plan, test, code, refactor.
+
 ## What it will look like
 
 #### Guessed Words Table
@@ -24,7 +28,6 @@ party | 5
 
 ## App state
 ```
-
 key          | Data Type | Description                      | Starting Value   
 -------------------------------------------------------------------------------
 secretWord   | string    | word the user is trying to guess | word from server 
@@ -34,6 +37,9 @@ guessedWords | array     | array of objects: {              | []
                             letterMatchCount: number                           
                            }                                                   
 ```
+
+#### Redux
+The 'success' state is 'false' by default and also the name of the reducer (success) which makes the new state calculation on this piece of state. The success reducer will take the old state (or current, however you want to look at it) and the action, and then make a calculation which will determine the new state (either returning the old state untouched or else returning a new changed state which flows down through props). 
 
 ## Making the first tests
 
