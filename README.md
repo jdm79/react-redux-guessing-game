@@ -39,7 +39,7 @@ guessedWords | array     | array of objects: {              | []
 ```
 
 #### Redux
-The 'success' state is 'false' by default and also the name of the reducer (success) which makes the new state calculation on this piece of state. The success reducer will take the old state (or current, however you want to look at it) and the action, and then make a calculation which will determine the new state (either returning the old state untouched or else returning a new changed state which flows down through props). 
+The 'success' state in our application is 'false' by default, and 'success' is also the name of the reducer which makes the new state calculation on this piece of state. The success reducer will take the old state (or current state, however you want to look at it) and the action, and then make a calculation which will determine the new state (either returning the old state untouched or else returning a new changed state). This is updated in the store and the new state flows down through props.
 
 The success state can be flipped to true with the CORRECT_GUESS action. This action will only be sent if the word has been correctly guessed. This is sent to the reducer by way of an action creator. Action creators are just plain JavaScript functions, so they can be tested like any other. In this case, the action creator takes an optional input and returns an output (which is an object which represents the action itself).
 
