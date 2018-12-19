@@ -1,4 +1,3 @@
-// this is where we keep all the action variables
 export const actionTypes = {
   CORRECT_GUESS: 'CORRECT_GUESS',
 }
