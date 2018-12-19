@@ -55,6 +55,6 @@ Separate the tests with 'describe' for context.
 
 #### Unit testing on redux?
 
-Some see action creators and reducers as an implementation detail, better tested with integration tests on the API - on points of user interaction. The benefits of skipping unit tests include having fewer tests to maintain and less refactoring when refactoring code. However, the big disadvantage of not having unit tests is that when things go wrong,it can very difficult to diagnose the problem when tests fail. Integration tests can cover such a broad swath of code that it can be hard to find which part of the code is causing a fail. It's a matter of personal choice and also how complicated your action creators and reducers are. If they are more complicated, it's better to have unit tests for them.
+Some see action creators and reducers as an implementation detail, better tested with integration tests on the API - on points of user interaction. The benefits of skipping unit tests include having fewer tests to maintain and less refactoring when refactoring code. However, the big disadvantage of not having unit tests is that when things go wrong, it can be very difficult to diagnose the problem when tests fail. Integration tests can cover such a broad body of code that it can be hard to find which part of the code is causing a fail. It's a matter of personal choice and also how complicated your action creators and reducers are. If they are more complicated, it's better to have unit tests for them.
 
 
