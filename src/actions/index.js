@@ -6,5 +6,5 @@ export const actionTypes = {
 // our action creator for correct guesses
 // redux actions are objects that have a type key and sometimes have some kind of payload
 export function correctGuess() {
-  return {}
+  return { type: actionTypes.CORRECT_GUESS }
 }
